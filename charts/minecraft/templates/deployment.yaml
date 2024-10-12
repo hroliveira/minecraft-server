@@ -22,6 +22,8 @@ spec:
           value: "TRUE"
         - name: ONLINE_MODE
           value: "FALSE"
+        - name: ENABLE_COMMAND_BLOCK
+          value: "TRUE"
         ports:
         - containerPort: 25565
         volumeMounts:
