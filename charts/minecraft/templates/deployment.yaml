@@ -34,10 +34,10 @@ spec:
           value: "2G" # Memória RAM alocada
         resources:
           limits:
-            memory: "3Gi"
+            memory: "2Gi"
             cpu: "2000m"  # 2 CPUs
           requests:
-            memory: "2Gi"
+            memory: "1Gi"
             cpu: "1000m"  # 1 CPU
         volumeMounts:
         - name: minecraft-data
