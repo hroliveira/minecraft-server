@@ -34,7 +34,7 @@ spec:
           value: "2G" # Memória RAM alocada
         resources:
           limits:
-            memory: "4Gi"
+            memory: "3Gi"
             cpu: "2000m"  # 2 CPUs
           requests:
             memory: "2Gi"
